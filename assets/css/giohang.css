@@ -1,0 +1,246 @@
+.giohang222{
+    margin-top: 20px;
+    height:auto ;
+    
+}
+
+.title{
+    height:44.85px;
+    display:flex;
+    align-items: center;
+    background-color: rgb(199, 202, 204);
+    font-weight: 600;
+    border-radius: 4px;
+}
+.title h1{
+    font-size: 20px;
+}
+.title span{
+    margin-left: 5px;
+}
+
+.header-cart-item{
+    height:41.43px;
+    display: flex;
+   
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px 0;
+    align-items: center;
+    font-size: 15px;
+}
+
+.checkbox-all-product{
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: center;
+    width: 55.59px;
+}
+.checkbox-add-cart{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #545759;
+    border-radius: 4px;
+}
+
+.chonsp{
+    width:615px;
+    
+    
+    
+}
+.sl{
+    width:200px;
+    display:flex;
+    justify-content: center;
+   
+    
+}
+.thanhtien{
+    width: 250px;
+   
+    display:flex;
+    justify-content: center;
+}
+
+.product-cart-left{
+    padding:13px;
+    height: auto ;
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-color: rgb(246, 247, 248);
+    border-radius: 8px;
+    
+}
+
+.item-product-cart{
+    display: flex;
+    height:160.6px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ededed;
+}
+.checked-product-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-product-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 20px;
+   
+
+}
+
+.img-product-cart img{
+    /* width: auto; */
+    /* max-height: 119px; */
+    /* object-fit: contain;
+    max-width: 100%; */
+    height:119px;
+    width: 119px;
+}
+
+.group-product-info{
+    display: flex;
+    
+}
+.info-product-cart{
+    width: 480px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+   
+}
+
+.price-original{
+    display: flex;
+    align-items:end;
+  
+}
+.giamua{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: red ;
+    font-weight: 500;
+
+}
+.gach{
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #7A7E7F!important;
+    margin-left: 10px;
+    text-decoration:line-through;
+}
+
+.number-product-cart{
+    width:450px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.tanggiamsoluong{
+    display: flex;
+    width: 81.21px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border: 1px solid #E0E0E0E0;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+}
+.tanggiamsoluong input{
+    border: none;
+}
+
+.dautru{
+    display: block;
+    width: 12px;
+    height: auto;
+    /* vertical-align: middle; */
+}
+
+.qty-carts{
+    height: 22.28px;
+    width: 31.2px;
+    font-size: 1em;
+    text-align: center;
+    
+
+}
+
+.price{
+   
+    color: #C92127;
+    font-weight: 300px;
+    font-size: 1.2em;
+}
+
+.thungrac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.footer{
+    height:auto;
+    margin-top: 350px;
+}
+
+.thanhtoan{
+    width: 500px;
+    float: right;
+    height: auto ;
+    background-color: #ebe4e4;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+.tongtien{
+    display: flex;
+    font-size: 1.2em;
+    height: 50px;
+    padding: 35px 16px;
+    /* background-color: #C92127; */
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #ededed;
+}
+
+.btnthanhtoan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 50px;
+}
+.btnthanhtoan button{
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    background-color:#C92127;
+    border: none;
+}
+.spanth{
+    font-weight: 500px;
+    font-size: 20px;
+    color: white;
+}
+.increase-quantity {
+    padding: 5px;
+}
+.decrease-quantity{
+    padding: 7px;
+}

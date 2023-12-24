@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/admin.css">
+    <title>Quản lý loại sách</title>
+</head>
+<body>
+   <div class="admin">
+    <div class="menutrai">  
+        <ul>
+            <li>
+                <i class="fa-solid fa-book"></i>
+                <a href="http://127.0.0.1:5500/adminls.html">Quản Lý Loại Sách</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-book-open"></i>
+                <a href="http://127.0.0.1:5500/admin.html">Quản Lý Sách</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-user-tie"></i>
+                <a href="http://127.0.0.1:5500/adminnv.html">Quản Lý Nhân Viên</a>
+                
+            </li>
+            <li>
+                <i class="fa-solid fa-truck-field"></i>
+                <a href="#!">Quản Lý Nhà Cung Cấp</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-users"></i>
+                <a href="#!">Quản Lý Khách Hàng</a>  
+            </li>
+            <li>
+                <i class="fa-solid fa-money-bill"></i>
+                <a href="#!">Hóa Đơn Nhập</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-wallet"></i>
+                <a href="#!">Hóa Đơn Bán</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-chart-line"></i>
+                <a href="#!">Báo Cáo-Thống Kê</a>  
+            </li>
+            <li>
+                <i class="fa-solid fa-gears"></i>
+                <a href="#!">Cài Đặt</a>  
+            </li>
+            <li>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <a href="#!">Đăng Xuất</a>  
+            </li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <h1>Quản lý Loại sách</h1>
+        
+        <form id="productForm">
+            <label for="productID">ID loại sách:</label>
+            <input type="text" id="productID" name="productID" required>
+        
+            <label for="productName">Tên loại sách:</label>
+            <input type="text" id="productName" name="productName" required>
+    
+            <label for="productDescription">Mô tả loại sách:</label>
+            <textarea id="productDescription" name="productDescription" required></textarea>
+            <button type="button" onclick="addProduct()">Thêm loại sách</button>
+        </form>
+        
+
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên loại sách</th>
+                   
+                    <th>Mô tả loại sách</th>
+                   
+                    
+                </tr>
+            </thead>
+            <tbody id="productTableBody">
+              
+            </tbody>
+        </table>
+    </div>
+   </div>
+   <!-- <script src="./assets/java/admin.js"></script> -->
+</body>
+</html>

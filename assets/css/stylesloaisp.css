@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+}
+.contenor{
+    margin:0px auto;
+    width:1200px;
+    
+}
+a{
+    text-decoration: none;
+    color: #434343;
+
+}
+.catechu{
+    text-align: center;
+
+}
+
+.header-1{
+    height:40px;
+    
+
+    border-bottom: 3px solid #77b3ec;
+    
+}
+
+.header-1 ul {
+    display:flex;
+    padding-top: 10px;
+
+}
+
+
+.aaa+.aaa{
+    padding-left: 20px;
+}
+.header-2{
+    display: flex;
+    height:120px;
+   
+
+    padding-top: 30px;
+}
+.hotline{
+    margin-left: 20px;
+}
+.Timkiem{
+    margin-left: 70px;
+}
+.inputtk{
+    position: relative;
+    height: 43px;
+    width: 320px;
+    border: 2px solid #97D9E1;
+    
+    
+}
+.btntk{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -43px;
+    width: 40px;
+    height: 43px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+    border: #0093E9;
+    
+}
+.timlogin{
+    display:flex;
+    margin-left: 90px;
+    align-items: center;
+    padding-bottom: 44px;
+    
+
+}
+.traitim{
+    font-size: 36px;
+}
+
+.traitim i{
+    color: #434343;
+}
+.user{
+    font-size: 36px;
+    margin-left: 10px;
+    position: relative;
+}
+.user i{
+    color: #434343;
+}
+
+.login{
+    width:291px;
+    height:234px;
+    position: absolute;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    top: 40px;
+    right: 0;
+    z-index: 1;
+    font-size: 15px;
+
+    
+   
+    display: none;
+}
+.login ul{
+    padding-left: 30px;
+    padding-top: 17px;
+}
+  
+
+
+.login1{
+    
+    padding-bottom: 10px;
+
+}
+.login ul li{
+    position: relative;
+    padding-top: 5px;
+}
+.login ul li a i{
+    position: absolute;
+    top: 5px;
+    left: -19px;
+   
+}
+.user:hover .login {
+    display: block;
+  }
+.login2{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.login2 input{
+    position: relative;
+    width: 200px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-bottom: 10px;
+ 
+}
+.login2 button{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    top:94px;
+     background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    ;
+}
+
+.login3{
+    height: 39px;
+    width: 240px;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    margin-top: 5px;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.login3 img{
+    margin-top: 10px;
+   
+}
+
+.login4{
+    text-align: center;
+    margin-top: 20px;
+}
+.giohang{
+    font-size: 36px;   
+    margin-left: 10px;
+}
+
+.giohang i{
+    color: #434343;
+}
+.giohang2{
+    margin-left: 5px;
+}
+.gio{
+    font-weight: 600;
+}
+
+.menu{
+    position: relative;
+    /* position: fixed; */
+    
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    
+
+}
+.menu-item{
+    
+    display: inline-block;
+}
+.menu-item >a{
+    display:inline-block;
+    padding: 15px 20px ;
+   
+    
+}
+.sub-menu{
+    position: absolute;
+    left: 0;
+    right: 0;
+   height:140px;
+    display:none;
+    z-index: 1;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.submenu{
+    vertical-align: top;
+    display:inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 1.2;
+}
+.menu-item:hover .sub-menu {
+    display: block;
+  }
+  .banner{
+    margin-top: 10px;
+    display: flex;
+  }
+.submenu i{
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    left: -10px;
+    font-size: 10px;
+}
+.submenu ul li{
+    position: relative;
+    padding-left: 10px;
+}
+.chuyen{
+    height:40px;
+   padding-top: 10px;
+  
+
+}
+.span{
+    width:270px;
+    height:850px;
+    /* background-color: #D9AFD9; */
+}
+.reset{
+    text-align: center;
+    
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    width:200px;
+    padding:10px;
+    
+   
+    margin:auto ;
+    margin-top: 45px;
+    border-radius: 999px;
+}
+.reset a{
+   
+}
+
+.menutrai{
+    padding-left: 10px;
+    width:270px;
+    height:320px;
+    line-height: 2.2;
+    position: relative;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+.menutrai a {
+   
+    padding-right: 10px;
+}
+.submenu2{
+   position: absolute;
+   width: 201px;
+    height: 215px;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    padding-left: 10px;
+    left: 191px;
+    top: 0;
+    display: none;
+    z-index: 1;
+}
+.menutrai li{
+    position: relative;
+}
+.menutrai li:hover > .submenu2 {
+    display: block;
+}
+.range{
+    margin-top: 10px;
+    padding:10px;
+    
+}
+.range input{
+    width:250px;
+    
+}
+.duoirange{
+    padding-left: 140px;
+}
+.nhaxuatban{
+    padding: 10px;
+}
+.nhaxuatban span{
+    position: relative;
+    
+}
+.nhaxuatban i{
+    position: absolute;
+    left: 385px;
+    
+}
+
+.nhaxbsearch{
+    width: 275px;
+    height: 48px;
+    padding-top: 10px;
+    
+}
+.nhaxbsearch input{
+    width: 250px;
+    height: 28px;
+}
+.span{
+    display: flex;
+    
+}
+
+.box{
+    width:905px;
+    height:890px;
+    padding-top: 10px;
+    background-color: transparent;
+    border: 1px solid #c5c5c5;
+  
+   
+}
+.box1{
+    height:30px;
+    padding-left: 10px;
+    border:none;
+   
+}
+.box2{
+    height:45px;
+   
+    margin-top: 10px;
+    display: flex;
+    padding: 5px;
+}
+.box2-1{
+    width: 150px;
+    height:30px;
+    text-align: center;
+    padding-top: 5px;
+   
+    border: 1px solid #c5c5c5;
+    position: relative; 
+    margin-left: 9px;
+    
+}
+.box2-1 i{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+.box2-2{
+    padding-left: 550px;
+    
+}
+
+.content{
+   
+    height:2116px;
+    /* background-color: #C850C0; */
+}
+
+.cuon{
+    height: 120px;
+    overflow: auto;
+    
+}
+
+.giavh{
+    display: block;
+    margin-top: 5px;
+}

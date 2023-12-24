@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+/* html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+} */
+
+a{
+    text-decoration: none;
+    color: #434343;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 11;
+    
+  }
+.contener-login{
+    height:370px;
+    width:363.6px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin: auto;
+    padding: 20px;
+    
+}
+/* .contener-login{
+    margin:23vh auto ;
+
+} */
+.dangnhap{
+    height:44.6px;
+    background-color: #0093E9;
+    margin-bottom: 5px;
+    position: relative;
+}
+.dangnhap span{
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.dienemail i{
+    color: red;
+}
+
+.close{
+    padding: 0;  
+    position: absolute;
+    width: 21px;
+    right:0px;
+    border:none;
+    background-color: #0093E9;
+}
+ .dienemail{
+    height:62.4px;
+   
+    margin-bottom: 5px;
+} 
+
+.nhapemial{
+    margin: 0;
+    padding: 5px;
+    height: 33px;
+    width:300px;
+    border-color: #65c931;
+}
+.deu{
+    padding: 2px 10px;
+
+}
+
+.quanmk{
+    float: right;
+
+}
+
+.gg{
+    height:64px;
+    /* background-color: #65c931; */
+}
+
+.hoac{
+    font-size: 16px;
+    text-align: center;
+}
+
+.google{
+    height:39px;
+    
+}
+
+.ggg{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); 
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.ggg img{
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+    vertical-align: middle;
+
+}
+
+.dangki{
+    height: 25.2px;
+    text-align: center;
+}
+.nhapki{
+    height:48.4px;
+}
+
+.nhapphai
+{
+    float: right;
+
+}
+
+.nhapphai button{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 10px;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    display: inline-block;
+    margin-bottom: 0;
+} 
+
+.remember{
+    padding: 6px 0;
+
+}
+.nhomk{
+    margin: -4px 6px 0 0;
+    margin: -4px 6px 0 0;
+    vertical-align: middle;
+    padding: 0;
+    width:13px;
+    height:13px;
+}

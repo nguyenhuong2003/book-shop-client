@@ -1,0 +1,265 @@
+.hanghoa{
+    height:2460px;
+    margin-top: 10px;
+    padding:20px;
+    border:2px solid rgb(226, 214, 214);
+
+    
+}
+
+.ha{
+    display:flex;
+}
+.anhsp{
+    width:505px;
+    height:503px;
+    border: 1px solid #c5c5c5;
+}
+
+.anhspnho{
+    display:flex;
+    margin-top: 5px;
+    
+
+}
+.anhnho{
+   
+    border: 1px solid #c5c5c5;
+    height:68px;
+    width:75.2px;
+    text-align: center;
+}
+.anhnho+.anhnho{
+    margin-left:10px;
+}
+
+
+.chitietsp{
+    height:575px;
+    width:655px;
+    margin-left: 100px;
+   
+    
+}
+.chitietsp h1{
+    border-bottom: 1px solid #65c931;
+    margin: 0 0 10px 0;
+    padding: 9px 0 10px 0;
+    text-transform: none;
+}
+
+.nhaphathanh{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #65c931;
+    line-height: 30px;
+}
+.nhaphathanh a{
+    float:right;
+}
+.danhgia{
+    height:26px;
+    padding: 5px 0;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #65c931;
+   
+}
+.danhgia a{
+    float: right;
+    color: #000;
+    font-weight: 600;
+   
+}
+.price{
+    font-size: 30px;
+    padding-top: 5px;
+    color:red;
+}
+.nhabanhang{
+    padding-top: 10px;
+}
+.nhabanhang a {
+    margin-left : 30px;
+}
+.congtru  {
+   margin-left:30px;
+    
+
+}
+
+.congtru{
+    display:inline-block;
+   
+}
+.congtru a{
+    width: 15px;
+    height: 15px; 
+    /* font: 12px arial;  */
+    line-height: 10px;
+    border: 1px solid #468c22;
+    color: #000;
+    float: right;   
+    margin-top: 10px;
+    margin-right:5px;
+}
+
+
+.congtru input{
+    width: 55px;
+    height: 28px;
+    border-color: #468c22;
+    /* float: left; */
+    margin :4px 3px;
+    text-align: center;
+    border: 1px solid #acb3a9;
+    background: #fff;
+   
+}
+.soluong a{
+    margin-left: 0px;
+}
+
+.timmua{
+    height:52px;
+    margin-top: 20px;
+   
+    position: relative;
+    
+}
+.muaa{
+    float: right;
+   
+}
+.muaa button {
+    background: #f77517;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 30px 7px 37px;
+    border: none;
+}
+
+.timm{
+    position: absolute;
+    top:4px;
+}
+.timm a {
+    font-size: 20px;
+   
+    background: #f5f3f8;
+    border: 1px solid #dad3e5;
+    margin: 10px;
+}
+
+.like-share {
+    height:45.2px;
+    margin-top: 5px;
+    
+}
+
+.like button {
+    /* line-height: 1.5; */
+    font-size: 15px;
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+}
+
+.motasanpham{
+    margin-top: 10px;
+}
+
+.motasp{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #acb3a9;
+}
+
+.motasp a{
+    font-weight: 600;
+}
+.motachitiet{
+    margin-top: 10px;
+}
+.trang{
+    height:35.2px;
+    padding:9px 0px ;
+}
+.span1{
+    display: inline-block;
+    width: 280px;
+   
+}
+.span2{
+    margin-left: 15px;
+}
+.span2 i{
+    border: 1px solid #4d4d4d;
+}
+.xanh{
+    height:35.2px;
+    padding:9px 0px ;
+    background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+}
+.banthich {
+    margin-top: 10px; 
+}
+
+.cothebanthich{
+    height:390px;
+    width:1157px;
+    margin-top: 10px;
+}
+.cothebanthichanh{
+    display: flex;
+    justify-content: space-between;
+}
+.flexitem{
+    width:190px;
+    height:296.4px;
+   
+    border: 1px solid #e3dfdf;
+    padding:0px;
+}
+.flexitem a img {
+    width:186px;
+    height:185.4px;
+}
+
+.flexitemmota{
+    margin:10px;
+    
+   
+}
+.cach{
+    padding-top: 10px;
+    color: red;
+}
+.leftright{
+    margin-top: 10px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+
+}
+.left i {
+    padding: 10px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border: 1px solid #e3dfdf ;
+    border-radius: 999px;
+    /* margin-top: 10px; */
+}
+
+.sale{
+    /* background-color: #2B86C5; */
+    border: 1px solid #e3dfdf;
+    
+    
+}

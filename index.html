@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css"> -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/stylesdangnhap.css">
+
+</head>
+<body>
+   <div class="contenor">
+    <div class="header-1">
+        <ul>
+            <li class="aaa"><a href="#!">Bookish.vn</a></li>
+            <li class="aaa"><a href="#!">App KOMO+</a></li>
+            <li class="aaa"><a href="#!">Phiếu quà tặng</a></li>
+        </ul>
+    </div>
+    <div class="header-2">
+        <div>
+            <a href="/">
+            <img src="https://bookbuy.vn/Images/frontend/base/logo-new.png" alt=""/>
+
+            </a>
+        </div>
+        <div class="hotline">
+            <div><span>Hotline</span></div>
+            <div>
+                <p><span>1900 6656<br>
+                    094 985 4605 
+                    </span>
+                </p>
+                <p>
+                    <span>(Giờ hành chính)</span>
+                </p>
+            </div> 
+        </div>
+        <div class="Timkiem">
+             <input type="text" value ="Tìm kiếm"title="Wimpy Kid" class ="inputtk">
+            <div> 
+                <button class="btntk" title="Tim kiem">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div class="timlogin">
+            <div class="traitim"><a href="#!"><i class="fa-solid fa-heart"></i></a></div>
+            <div class="user"><a href="#!"><i class="fa-solid fa-user"></i></a>
+                <div class="login">
+                   <div class="login1">
+                    <ul>
+                        <li><a href="#!"><i class="fa-solid fa-angle-right"></i>Đơn hàng của tôi</a></li>
+                        <li><a href="#!"><i class="fa-solid fa-angle-right"></i>Danh sách yêu thích của tôi</a></li>
+                    </ul>
+                   </div>
+                   <div class="login2">
+                    <label>Theo dõi đơn hàng của tôi</label>
+                    <input type="text" value="ID đơn hàng/E-mail">
+                    <button><i class="fa-brands fa-google-play"></i></button>
+                   </div>
+                   <div class="login3">
+                    <a href="">
+                        <img src="./assets/img/logogg.png" style="width:18px;height:18px; ">
+                        Login with Google
+                    </a>
+                   </div>
+                   <div class="login4">
+                    <a href="http://127.0.0.1:5500/danhnhapoke.html" target="_blank">ĐĂNG NHẬP</a>
+                    <span>hoặc</span>
+                    <a href="#!">ĐĂNG KÝ</a>
+
+                   </div>
+                
+                </div>
+            </div>
+            <div class="giohang">
+                <a href="http://127.0.0.1:5500/giohang.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+            <a  href="#!">
+                <div class="giohang2">
+                    <div class="gio">Giỏ hàng</div>
+                    <div class="sanpham"><span id="cart-count"></span> sản phẩm</div>
+                </div>
+            </a>
+        </div>
+   </div>
+   <div class="menu">
+    <div class="menu-item">
+        <a href="#!">Sách Tiếng Việt</a>
+        <div class="sub-menu">
+            <div class="submenu">
+                <div class="phanloai"><a href="http://127.0.0.1:5500/loaisp.html"><b>Theo thể loại</b></a></div>
+                <div> 
+                    <ul>
+                        
+                        <li>
+                           
+                            <a href="#!"> <i class="fa-solid fa-chevron-right"></i>SGK</a>
+                        </li>
+                        
+                        <li><a href="#!"><i class="fa-solid fa-chevron-right"></i>Văn học</a></li>
+                       
+                        <li><a href="#!"><i class="fa-solid fa-chevron-right"></i>Kinh tế</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Theo nhà phát hành</b></a></div>
+                <div> 
+                    <ul>
+                        <li><a href="#!"><i class="fa-solid fa-chevron-right"></i>Phương Nam</a></li>
+                        <li><a href="#!"><i class="fa-solid fa-chevron-right"></i>NXB trẻ</a></li>
+                        <li><a href="#!"><i class="fa-solid fa-chevron-right"></i>NXB Kim Đồng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Theo tác giả</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Thích Nhất Hạnh</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phạm Công Luận</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Tô Hoài</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Theo giải thưởng</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Giải sách hay</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Nobel</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Pullitzer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <a href="#!">ENGLISH BOOKS</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>By categories</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Fiction</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Business</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Self-help</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Children</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>By publishers</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Helen Exley</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Pengunin random house</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Simson</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Phuong Nam's pick</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Best Fiction</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Movie</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Classic</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>New releases</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Childrens</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Adults</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Childrens</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Childrens</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <a href="#!">VPP & Học cụ</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Văn phòng phẩm</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Sổ Tay</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Sổ Tay</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Kẹp Giấy</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Bìa nhựa/ Bìa còng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Học Tập</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Máy tính</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Bút Viết Các Loại</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Gôm tẩy</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Thước kẻ</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Dụng Cụ Vẽ</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Bút màu</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Acrylic</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Cọ vẽ</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Tập vẽ</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Balo/Túi xách</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Balo mẫu giáo</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Balo cấp 1</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Balo Teen </a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Túi đeo vải</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Thương Hiệu</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Deli</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Thiên Long</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Nhạc Cụ</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Yamha</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <a href="#!">Đồ chơi</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Đồ chơi phân theo nhóm</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Xếp hình</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Đồ chơi giáo dục</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Lắp ráp</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Mô hình</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Đồ chơi phân theo nhà cung cấp</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Pinkfong</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Masen-Toys</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Đồ chơi theo thương hiệu</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">LEGO</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Thế giới tí hon</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Tomica</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+   </div>
+   <div class="menu-item">
+    <a href="#!">Lưu niệm</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Phụ kiện cá nhân</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phụ kiện Conan</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phụ kiện Ếch pepe</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phụ kiện thỏ bảy màu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Phụ kiện theo các dịp</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Halloween</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Trang trí Noel</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>
+   </div>
+   <div class="menu-item">
+    <a href="#!">Băng Đĩa</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Đĩa nhạc</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Nhạc trẻ</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Nhạc trữ tình</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Nhạc thiếu nhi</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Nhạc cách mạng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Đĩa phim</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phim nhiều tập</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phim Việt Nam</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Phim tâm lý</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Thể loại khác</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Tài liệu/Ký sự</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Khoa học/Giáo giục</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Sân khấu/Hài</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Thể dục/Khiêu vũ</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+   </div>
+   <div class="menu-item">
+    <a href="#!">Ưu đãi hot</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Year end sale</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Sách giảm đến 50%</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Đón lễ hội</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Giảm 10%</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Giảm 30%</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Đồng giá</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>
+   </div>
+   <div class="menu-item">
+    <a href="#!">Outlet Sales</a>
+        <div class="sub-menu">  
+            <div class="submenu">
+                <div class="phanloai"><a href="#!"><b>Sách quốc văn</b></a></div>
+                <div> 
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Văn học</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Kinh tế</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Kỹ năng sống</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#!">Thiếu nhi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </div> 
+</div>
+<div class="banner">
+    <section>
+        <div class="anhbannerchay">
+        <img  class="slide-img" src="./assets/img/banner1.jpg">
+        <img class="slide-img" src="./assets/img/banner2.jpg">
+        <img class="slide-img" src="./assets/img/banner3.jpg">
+        </div>
+        <div class="anhbannertinh">
+            <img class="anhbannertinh1" src="./assets/img/banner4.jpg">
+            <img class="anhbannertinh2" src="./assets/img/banner4.jpg">
+        </div>
+        <script src="./assets/java/sidle.js" ></script>
+    </section>
+
+</div>
+<div class="list-cate">
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate1.png">
+            </a>
+        </div>
+        <div class="catechu">Jigsaw Puzzles</div>
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate2.png">
+            </a>
+        </div>
+        <div class="catechu">Manga - Comic</div>
+
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate3.png">
+            </a>
+        </div>
+        <div class="catechu">Tiệc Sách Tuổi Teen</div>
+
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate4.png">
+            </a>
+        </div>
+        <div class="catechu">Chợ Sách Cũ</div>
+
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate5.png">
+            </a>
+        </div>
+        <div class="catechu">Gift Books For You</div>
+
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate6.png">
+            </a>
+        </div>
+        <div class="catechu">Điểm Tô Sắc Màu</div>
+
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate7.png">
+            </a>
+        </div>
+        <div class="catechu">Đồ Chơi Lego</div>
+
+    </div>
+    <div class="cate">
+        <div class="cateimg">
+            <a href="">
+                <img src="./assets/img/cate8.jpg">
+            </a>
+        </div>
+        <div class="catechu">Stickers Sáng Tạo</div>
+
+    </div>
+</div>
+<div class="saleitem" id="sale-products">
+    <!-- <div class="sale">
+        <div class="sale10">
+            <span>10%</span>
+        </div>
+        <div class="saleimg">
+            <a href="#!">
+                <img src="./assets/img/sale1.jpg">
+            </a>
+        </div>
+        <div class="salemota">
+            <a href="#!">Bộ Áo Choàng 90CM</a>
+            <div class="giasale">
+                <span class="giadasale">112,500đ</span>
+                <span class="giabd">125,000đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+        </div>
+    
+    </div> -->
+    <!-- <div class="sale">
+        <div class="sale10">
+            <span>10%</span>
+        </div>
+        <div class="saleimg">
+            <a href="#!">
+                <img src="./assets/img/sale2.jpg">
+            </a>
+        </div>
+        <div class="salemota">
+            <a href="#!">Bộ Áo Choàng Và Nón</a>
+            <div class="giasale">
+                <span class="giadasale">148,500đ</span>
+                <span class="giabd">165,000đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+        </div>
+    
+    </div> -->
+    <!-- <div class="sale">
+        <div class="sale10">
+            <span>10%</span>
+        </div>
+        <div class="saleimg">
+            <a href="#!">
+                <img src="./assets/img/sale3.jpg">
+            </a>
+        </div>
+        <div class="salemota">
+            <a href="#!">Áo choàng</a>
+            <div class="giasale">
+                <span class="giadasale">49,000d</span>
+                <span class="giabd">50,000d</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+        </div>
+    </div> -->
+    <!-- <div class="sale">
+        <div class="sale10">
+            <span>10%</span>
+        </div>
+        <div class="saleimg">
+            <a href="#!">
+                <img src="./assets/img/sale4.jpg">
+            </a>
+        </div>
+        <div class="salemota">
+            <a href="#!">Bí ngô vẽ mặt</a>
+            <div class="giasale">
+                <span class="giadasale">100,000đ</span>
+                <span class="giabd">110,000đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+        </div>
+    
+    </div> -->
+    <!-- <div class="sale">
+        <div class="sale10">
+            <span>10%</span>
+        </div>
+        <div class="saleimg">
+            <a href="#!">
+                <img src="./assets/img/sale5.jpg">
+            </a>
+        </div>
+        <div class="salemota">
+            <a href="#!">Băng đô mắt</a>
+            <div class="giasale">
+                <span class="giadasale">50,000d</span>
+                <span class="giabd">52,000d</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+        </div>
+    
+    </div>  -->
+</div>
+<h1>Danh mục sản phẩm</h1>
+<div class="danhmucsp">
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/danhmuc1.png">
+            <div>Sách tiếng việt</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/english.png">
+            <div>English Books</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/vpp.png">
+            <div>VPP & Học Cụ</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/dochoi.png">
+            <div>Đồ Chơi</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/phukien.png">
+            <div>Phụ Kiện</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/bangdia.png">
+            <div>Băng Đĩa</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/uudai.png">
+            <div>Ưu đãi HOT</div>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <div class="danhmucitem">
+            <img src="./assets/img/utles.png">
+            <div>Outlet Sales</div>
+        </div>
+    </div>
+</div>
+<div><h1>Sách Tiếng Việt</h1></div>
+<div class="anhtiengviet">
+    <a href="#!"><img src="./assets/img/sachtiengviet.jpg"></a>
+    <a href="#!"><img src="./assets/img/sachtiengviet.jpg"></a> 
+</div>
+<div class="phanloaitv">
+    <ul>
+        <li><a href="#!"><span>Văn học</span></a></li>
+        <li><a href="#!"><span>Kinh tế</span></a></li>
+        <li><a href="#!"><span>Kỹ năng</span></a></li>
+        <li><a href="#!"><span>Thiếu nhi</span></a></li>
+    </ul>
+</div>
+<div class="vanhoc" id="product-vh">
+    <!-- <div class="vanhocitem">
+        
+            <div class="vanhocimg">
+                <a href="#">
+                    <img src="./assets/img/vanhoc1.jpg" alt="">
+                </a>
+            </div>
+            <div class="salemota">
+                <a href="#!">Anna Karenina - Tập 2</a>
+                <div>
+                    <span class="giavh">165,000 đ</span>
+                </div>
+            </div>
+            <button class="chonmua">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Chọn Mua 
+            </button>
+       
+        <div class=" heart heart-eye">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>                
+                <i class="fa-solid fa-eye"></i>
+            </a>
+                
+                   
+        </div>
+
+    </div>
+    
+
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh1.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Coraline</a>
+            <div>
+                <span class="giavh">150,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh2.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Chuyện thầy trò</a>
+            <div>
+                <span class="giavh">149,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh3.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Thương nhớ thời bao cấp</a>
+            <div>
+                <span class="giavh">95,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh4.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Charlotte and Wilbur</a>
+            <div>
+                <span class="giavh">59,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+
+    </div> -->
+    
+    <!-- <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh5.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Chinh phục Nam Cực</a>
+            <div>
+                <span class="giavh">90,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh6.jpg"></a></div>
+        <div>
+            <a href="#!">Metaverse</a>
+            <div>
+                <span class="giavh">100,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh7.jpg"></a></div>
+        <div>
+            <a href="#!">Pinochoio</a>
+            <div>
+                <span class="giavh">149,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh8.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Wonderland</a>
+            <div>
+                <span class="giavh">150,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="vanhocitem">
+        <div class="vanhocimg"><a href="#!"><img src="./assets/img/itemvh9.jpg"></a></div>
+        <div class="salemota">
+            <a href="#!">Phụ Nữ và Tự Do</a>
+            <div>
+                <span class="giavh">90,000 đ</span>
+            </div>
+        </div>
+        <button class="chonmua">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Chon Mua
+        </button>
+        <div class="heart">
+            <a href="#!">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </a>
+        </div>
+
+    </div> -->
+</div>
+</div>
+ <div class="footer">
+    <div class="footer1">
+        <div><p>Đăng kí nhận bản tin của nhà sách</p></div>
+    <div class="inputemail">
+        <input value="Email">
+    </div>
+    <div class="go">
+        <button><i class="fa-brands fa-google-play"></i></button>
+    </div>
+    </div>
+    <div class="footer2">
+       <div class="footeritem">
+        <div><h4>VỀ CHÚNG TÔI</h4></div>
+        <div>
+            <ul class="gioithieu">
+                <li><a href="#!">Giới thiệu vầ nhà sách Hải Nam</a></li>
+                <li><a href="#!">Hệ Thống Nhà Sách Hải Nam</a></li>
+                <li><a href="#!">Điều Khoản Sử Dụng</a></li>
+                <li><a href="#!">Chính Sách Bảo Mật</a></li>
+                <li><a href="#!">Chính Sách Bán Hàng</a></li>
+                <li><a href="#!">Phương Thức Vận Chuyển</a></li>
+                
+            </ul>
+        </div>
+
+       </div>
+       <div class="footeritem">
+        <div><h4>TÀI KHOẢN CỦA TÔI</h4></div>
+        <div>
+            <ul class="gioithieu">
+                <li><a href="#!">Đăng nhập</a></li>
+                <li><a href="#!">Tạo tài khoản</a></li>
+                <li><a href="#!">Danh Sách Yêu Thích</a></li>
+                <li><a href="#!">Danh Sách So Sánh</a></li>
+                
+            </ul>
+        </div>
+
+       </div>
+       <div class="footeritem">
+        <div><h4>HỖ TRỢ KHÁCH HÀNG</h4></div>
+        <div>
+            <ul class="gioithieu">
+                <li><a href="#!">Các Câu Hỏi Thường Gặp</a></li>
+                <li><a href="#!">Chính Sách Đổi/Trả Hàng</a></li>
+                <li><a href="#!">Quy Định Viết Bình Luận</a></li>
+                
+            </ul>
+        </div>
+
+       </div>
+       <div class="footeritem">
+        <div><h4>LIÊN HỆ VỚI CHÚNG TÔI</h4></div>
+        <div>
+            <ul>
+                <li><a href="#!">Hotline: 1900 6656</a></li>
+                <li><a href="#!">Email: hotro@nhasachhainam.com</a></li>
+            </ul>
+            <div class="lienhe">
+                <a class="fb" href="#!"><i class="fa-brands fa-facebook"></i></a>
+                <a class="yt" href="#!"><i class="fa-brands fa-youtube"></i></a>
+                <a class="ig"  href="#!"><i class="fa-brands fa-instagram"></i></a>    
+            </div>   
+            <div class="dangki">
+                <a href="#!"><img src="./assets/img/datb.png"></a>
+               <a href="#!"><img src="./assets/img/daudo.png"></a>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="footer3">
+        <span>© 2023 - Bản quyền của Công Ty Cổ Phần Văn Hóa Hải Nam - nhasachhainam.com</span><br/>
+        <span>Giấy chứng nhận Đăng ký Kinh doanh số 0301860552 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 15/08/2019</span>
+    </div>
+ </div> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="./assets/java/cart/add-to-cart.js"></script>
+ <script src="./assets/java/home/sale-product.js"></script>
+ <script src="./assets/java/home/product.js"></script>
+ <script src="./assets/java/cart/tangslsp.js"></script>
+
+
+</body>
+</html>

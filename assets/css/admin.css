@@ -1,0 +1,96 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+.admin{
+    display:flex;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: white ;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto ;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color:#0093E9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea, select {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    color: white;
+}
+
+/* */
+.menutrai{
+    
+    width:280px;
+    height:650px;
+    line-height: 2.2;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+.menutrai ul{
+   padding-left: 30px;
+}
+
+.menutrai ul li{
+    font-size: 20px;
+}
+.menutrai ul li a{
+    text-decoration: none;
+    color:white;
+}
+.save{
+    width: 70px;
+    height: 40px;
+   border-radius: 999px;
+  margin-left: 900px;
+}
