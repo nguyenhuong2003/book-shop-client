@@ -60,16 +60,20 @@
     <div class="container">
         <h1>Quản lý Loại sách</h1>
         
-        <form id="productForm">
+        <form id="categoryForm">
+            <input type="hidden" id="action" value="1">
+
             <label for="productID">ID loại sách:</label>
-            <input type="text" id="productID" name="productID" required>
+            <input type="text" id="productID" name="productID">
         
             <label for="productName">Tên loại sách:</label>
-            <input type="text" id="productName" name="productName" required>
+            <input type="text" id="productName" name="productName">
     
             <label for="productDescription">Mô tả loại sách:</label>
-            <textarea id="productDescription" name="productDescription" required></textarea>
-            <button type="button" onclick="addProduct()">Thêm loại sách</button>
+            <textarea id="productDescription" name="productDescription"></textarea>
+            
+            <button id="submitBtn" type="submit">Thêm loại sách</button>
+            <button id="skipBtn" type="button" style="margin-top: 8px;">Bỏ qua</button>
         </form>
         
 
@@ -78,18 +82,16 @@
                 <tr>
                     <th>ID</th>
                     <th>Tên loại sách</th>
-                   
                     <th>Mô tả loại sách</th>
-                   
-                    
+                    <th>Thao tác</th>
                 </tr>
             </thead>
             <tbody id="productTableBody">
-              
             </tbody>
         </table>
     </div>
    </div>
-   <!-- <script src="./assets/java/admin.js"></script> -->
+   <script src="./js/vendors/jquery.min.js"></script>
+   <script src="./js/pages/admin/manage-category.js"></script>
 </body>
 </html>
